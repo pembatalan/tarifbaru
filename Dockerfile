@@ -25,6 +25,8 @@ RUN composer install
 # Change ownership of our applications
 RUN chown -R www-data:www-data /var/www/html
 
+RUN docker-php-ext-install mbstring
+
 # Expose port 80
 EXPOSE 80
 
