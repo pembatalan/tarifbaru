@@ -27,6 +27,10 @@ RUN chown -R www-data:www-data /var/www/html
 
 RUN docker-php-ext-install mbstring
 
+RUN docker-php-ext-install mbstring
+COPY .env.example .env
+RUN php artisan key:generate
+
 # Expose port 80
 EXPOSE 80
 
