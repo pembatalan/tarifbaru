@@ -1,0 +1,141 @@
+.batalkantransaksi-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCH8_Rp2wM33vxFr_Pj08T63XpTMhPB5piR3765gn2dTA7Hx5DHEwARgXXObc9Q9UhVOnmxlmLild94h1Vl3uisjmX_lwQUol3osOQBM7E3DZvO0jfojpwp-VNlsUtsRy9f_LybD-QsgSLrEejPFp6_uq9rk4clLcpadElWw9OTQpU_5ul_JAnqFQRsv8/s812/img_default_blue.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.batalkantransaksi-container1 {
+  width: 100%;
+  height: 704px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-image: url("public/img_default_blue.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.batalkantransaksi-container2 {
+  top: 11px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 91px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.batalkantransaksi-image {
+  left: 0px;
+  top: 1px;
+  right: 0px;
+  width: 200px;
+  bottom: 28px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.batalkantransaksi-image1 {
+  top: 11px;
+  right: 21px;
+  width: 38px;
+  height: 36px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.batalkantransaksi-icon {
+  top: 11px;
+  left: 19px;
+  width: 40px;
+  height: 38px;
+  position: absolute;
+}
+.batalkantransaksi-container3 {
+  top: 140px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 349px;
+  height: 557px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.batalkantransaksi-image2 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 273px;
+  height: 221px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #363434;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.batalkantransaksi-form {
+  left: 0px;
+  right: 0px;
+  width: 327px;
+  bottom: 1px;
+  height: 313px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+}
+.batalkantransaksi-button {
+  left: 0px;
+  color: var(--dl-color-gray-black);
+  right: 0px;
+  bottom: 3px;
+  height: 51px;
+  margin: auto;
+  position: absolute;
+  box-shadow: rgb(82, 81, 81) 5px 5px 10px 0px;
+  font-style: normal;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, rgb(234, 168, 3) 1%, rgb(241, 246, 4) 100%);
+}
+.batalkantransaksi-textarea {
+  top: 73px;
+  left: 0px;
+  right: 0px;
+  width: 311px;
+  min-height: 92px;
+  max-height: 92px;
+  margin: auto;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #fff;
+  border-color: #ddd;
+  resize: none;
+}
+
+.batalkantransaksi-textarea::placeholder{
+    color: #aaa;
+}
+
+.batalkantransaksi-text {
+  top: 1px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
